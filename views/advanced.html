@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Advanced Search</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/add.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../assets/img/google-favicon.webp"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <a class="link" href="../index.html">
+        <img
+          class="advanced-logo"
+          id="logo"
+          src="../assets/img/advanced-logo.png"
+          alt="Logo"
+      /></a>
+    </div>
+    <div class="advanced-title">
+      <span>Advanced Search</span>
+    </div>
+    <form action="https://google.com/search">
+      <div class="advanced-content">
+        <div class="content-wrapper">
+          <div class="label label-title">
+            Find pages with ...
+          </div>
+          <div class="details details-title">
+            <strong>To do in this search box.</strong>
+          </div>
+        </div>
+
+        <div class="all">
+          <div class="label label-title">
+            <small>all these words : </small>
+          </div>
+          <div class="input-wrapper">
+            <input class="input" type="text" name="as_q" />
+          </div>
+          <div class="details">
+            <small
+              >Type the important words:
+              <span class="monospace">tri-colour rat terrier</span></small
+            >
+          </div>
+        </div>
+        <div class="exact">
+          <div class="label label-title">
+            <small>this exact word or phrase : </small>
+          </div>
+          <div class="input-wrapper">
+            <input class="input" type="text" name="as_epq" />
+          </div>
+          <div class="details">
+            <small
+              >Put exact words with quotes:
+              <span class="monospace">"rat terrier"</span></small
+            >
+          </div>
+        </div>
+        <div class="any">
+          <div class="label label-title">
+            <small>any of these words : </small>
+          </div>
+          <div class="input-wrapper">
+            <input class="input" type="text" name="as_oq" />
+          </div>
+          <div class="details">
+            <small
+              >Type <span class="monospace">OR </span> between all the words you
+              want: <span class="monospace">miniature OR standard</span></small
+            >
+          </div>
+        </div>
+        <div class="none">
+          <div class="label label-title">
+            <small>none of these words : </small>
+          </div>
+          <div class="input-wrapper">
+            <input class="input" type="text" name="as_eq" />
+          </div>
+          <div class="details">
+            <small
+              >Put a minus sign just before words that you don't want:
+              <span class="monospace">-rodent, -"Jack Russell"</span></small
+            >
+          </div>
+        </div>
+        <div class="submit-wrapper custom-margin">
+          <div class="submit">
+            <input
+              class="button advanced-button"
+              type="submit"
+              value="Advanced Search"
+              aria-label="Advanced Search"
+            />
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
